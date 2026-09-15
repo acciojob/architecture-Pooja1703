@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    width: 1100px;
+    margin: auto;
+}
+
+.imageContainer {
+    width: 1100px;
+}
+
+.imageContainer img {
+    width: 1100px;
+    height: 300px;
+    object-fit: cover;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td img {
+    width: 180px;
+    height: 150px;
+    
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
